@@ -11,6 +11,9 @@ Celem ćwiczenia była ewaluacja skuteczności czterech architektur głębokich 
 - **Konfiguracja:** Trening realizowano przy użyciu CPU, wykonując 30 epok z rozmiarem partii 128 (optymalizator Adam, lr=5e-3, ziarno=0). Jako punkt odniesienia przyjęto średnią arytmetyczną celu treningowego.
 - **Architektura modeli:** Modele rekurencyjne wykorzystywały odczyt wyniku z ostatniego stanu ukrytego. Architektura Conv1D została skonstruowana w oparciu o 3 warstwy konwolucyjne z dylatacjami `[1, 2, 4]`, po których następowało uśrednianie mapy cech w wymiarze czasowym.
 
+## Link do Githuba
+https://github.com/damianero47/Obs-uga-d-ugich-sekwencji-LSTM-GRU-i-splot-1D
+
 ## 3. Wyniki
 
 Tabela porównawcza eksperymentów:
